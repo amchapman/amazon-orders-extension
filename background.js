@@ -1,10 +1,5 @@
 // Download Amazon Orders
 
-// TODO replace urlContains with urlMatches and switch to more specific regex
-// TODO improve the urlRegex to be more specific
-// TODO package up extension and upload
-// TODO consider adding option page to specific filename and perhaps output format
-
 // Display icon when on the Amazon orders page
 chrome.runtime.onInstalled.addListener(function() {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
